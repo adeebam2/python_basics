@@ -1,6 +1,3 @@
 l = [[1,2,3], [], [1,2]]
-for i in range(len(l)):
-    if l[i] == :
-        l.remove(l[i])
-
-print(l)
+filtered_list = [i for i in l if i] # list comprehension used and "if i" means if the list is not empty
+print(filtered_list)
